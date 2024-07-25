@@ -1,0 +1,170 @@
+:root{
+--nav-text : #005B01;
+--nav-logo : #F09633;
+}
+#ayur-logo{
+    position: relative;
+    animation-name: ayur_logo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes ayur_logo {
+    0%   {left:-100px; top:0px;}
+    100%  {left:0px; top:0px;}
+  }
+  #cont-logo{
+    position: relative;
+    animation-name: cont_logo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes cont_logo {
+    0%   {right:-200px; top:0px;}
+    100%  {right:0px; top:0px;}
+  }
+  #cont-quot , #cont-quot-auth{
+    position: relative;
+    animation-name: cont_quot;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes cont_quot {
+    0%   {top:-180px;}
+    100%  {top:0px;}
+  }
+  
+body{
+    background-image: url(../images/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* background-color: var(--nav-text); */
+}
+#clinic{
+    display: flex;
+   align-items: center;
+   text-align: center;
+  width: initial;
+}
+#hr{
+    border: 3px solid white;
+    width: initial;
+}
+#nav-logo{
+    margin-left: 30px;
+    width: 70px;
+    /* margin-left: 500px; */
+    padding-right: 20px;
+}
+#nav-text{
+    font-family: "YAD1aIFxe3I 0", _fb_, auto;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+}
+.container{
+    width: 100%;
+    padding-top: 100px;
+    justify-content: center;
+}
+#cont-quot{
+    margin-top: 10px;
+    padding-top: 30px;
+    margin-left: 300px;
+    text-align: justify;
+    font-size: 2.7em;
+    color: white;
+    /* font-family: "YACgEUrhTw0 0", _fb_, auto; */
+    font-family: 'Brush Script MT, Brush Script Std, cursive';
+    font-style: italic;
+    width: 900px;
+}
+#cont-quot > p{
+    line-height: 10px;
+    letter-spacing: 1px;
+
+}
+#cont-quot-auth{
+    margin-top: 10px;
+    margin-left: 900px;
+    color: var(--nav-logo);
+    font-size: 2.2em;
+    font-family: "YACgEUrhTw0 0", _fb_, auto;
+    font-size: 32px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+#cont-logo{
+    margin-top: -20px;
+    display: flex;
+    float: right;
+}
+#doc-logo{
+    width:150px;
+    margin-right: 100px;
+}
+#ayur-logo{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    float: left;
+    padding-right: 60px;
+}
+#for-button{
+    width: initial;
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+#nav-doc{
+    /* background-color: var(--nav-logo) ; */
+    background-color: #ff8400 ;
+    border: 0px solid var(--nav-text);
+    box-shadow: 0 0 5px var(--nav-text);
+    color: white;
+    float: left;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-left: 70px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+#nav-doc:hover{
+    background-color: initial;
+    border: 5px solid var(--nav-logo);
+    box-shadow: none;
+    color: white;
+    cursor:pointer;
+}
+#nav-but{
+    /* background-color: var(--nav-logo) ; */
+    background-color: #ff8400 ;
+    border: 0px solid var(--nav-text);
+    box-shadow: 0 0 5px var(--nav-text);
+    color: white;
+    font-weight: 500;
+    float: right;
+    font-size: 1.5em;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+#nav-but:hover{
+    background-color: initial;
+    border: 5px solid var(--nav-logo);
+    box-shadow: none;
+    color: white;
+    cursor:pointer;
+}

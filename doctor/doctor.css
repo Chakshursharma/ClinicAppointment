@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    /* background-image: url(../images/bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #FCF8F3;
+    margin: 0;
+    padding: 20px;
+}
+nav{
+    margin-left: 10px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 70px;
+}
+#nav-text{
+    font-family: "YAD1aIFxe3I 0", _fb_, auto;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #131842;
+    width: fit-content;
+    margin-left: 500px;
+}
+.container {
+    margin-top: 200px;
+    max-width: 1200px;
+    height: 500px;
+    margin:0 auto;
+    background-color: rgb(128, 175, 129,0.4);
+    box-shadow: 0 0 17px #80AF81;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header h1 {
+    color: #131842;
+    font-size: 3.5em;
+    margin: 10px 0;
+    /* transform: translateX(-300px); */
+}
+header p {
+    color:black;
+    font-size: 2.2em;
+    margin: 0;
+    /* transform: translateX(-300px); */
+    margin-bottom: 20px;
+}
+section {
+    margin-bottom: 30px;
+}
+h2 {
+    color: #333;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+strong {
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: blue;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+/* Image Styles */
+.profile-img {
+    margin-left: 250px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #F2F1EB;
+}
+.sec-container{
+    margin: auto 100px;
+}
+iframe{
+    margin: auto 100px;
+    width: 1220px;
+    height: 600px;
+}
+#nav-but{
+    background-color: #80AF81 ;
+    border: 0px solid #80AF81;
+    color: white;
+    font-weight: 500;
+    float: right;
+    font-size: 1.2em;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+#nav-but:hover{
+    background-color: initial;
+    border: 5px solid #80AF81;
+    box-shadow: none;
+    color: #80AF81;
+    cursor:pointer;
+}

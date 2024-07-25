@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="navigation">
+            <span><a href="../index/index.html"><i class="fa fa-home" style="font-size:40px;color:white"></i></a></span>
+            <!-- <span id="nav-text">Saraswathi Clinic</span>     -->
+            <!-- <span><img src="../images/2.png" alt="lang-logo" id="lang-logo"></span>    -->
+    </nav>
+    <div class="main-container">
+        <div class="appointment-form">
+            <h2>Book an Appointment</h2>
+            <form>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="phone_number" placeholder="Phone Number" required>
+                <select name="gender" required>
+                    <option value="" disabled selected>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <select name="date" required>
+                    <option value="" disabled selected>Preferred Date</option>
+                    <option value="06-07-2024">06-07-2024</option>
+                    <option value="07-07-2024">07-07-2024</option>
+                </select>
+                <select name="preferred_time" required>
+                    <option value="" disabled selected>Preferred Time</option>
+                    <option value="morning">8:30 AM - 9:30 AM</option>
+                    <option value="afternoon">9:30 AM - 10:30 AM</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./register.js" type="text/javascript" async></script>
+</body>
+</html>
