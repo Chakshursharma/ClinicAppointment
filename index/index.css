@@ -34,9 +34,7 @@
   }
   
 body{
-    background-image: url(../images/bg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #80AF81;
 }
 nav{
     margin-top: 20px;
