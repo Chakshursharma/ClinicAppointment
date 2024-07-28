@@ -101,7 +101,6 @@ a:visited{
 .contact-info a:hover {
     text-decoration: underline;
 }
-/* Image Styles */
 .profile-img {
     margin-left: 250px;
     width: 400px;
@@ -138,3 +137,18 @@ iframe{
     color: #80AF81;
     cursor:pointer;
 }
+@media only screen and (max-width: 600px) {
+    body{
+        width:fit-content;
+    }
+    nav{
+        margin-left: 10px;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 50px;
+        /* background-color: rgb(54, 85, 48); */
+    }
+  }
